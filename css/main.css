@@ -1,0 +1,64 @@
+form {
+  background-color: rgba(238, 238, 238, 0.32);
+  width: 50%;
+  height: 60%;
+}
+form > div {
+  padding: 10px;
+}
+input {
+  width: 100%;
+  overflow: hidden;
+  box-sizing : border-box;
+  border-radius:4px;
+  border-width: 1px;
+  border-color: grey;
+  line-height: 1.7
+}
+
+textarea{
+  box-sizing : border-box;
+  border-radius:4px;
+  border-width: 1px;
+  border-color: grey;
+  line-height: 1.7;
+  width: 100%;
+}
+
+#referrer{
+  width: 100%;
+}
+
+#junk_optin{
+  width: 100%;
+  text-align: center;
+}
+
+
+/*form {
+  background-color: rgba(186, 232, 53, 0.19);
+  position: fixed;
+  height: 16em;
+  width: 8em;
+  margin-top:25%;
+  margin-left:25%;
+}*/
+
+.center {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+html {
+    font-family: 'Lato', sans-serif;
+    background-image: url("../img/nap.jpg");
+    background-position: center;
+}

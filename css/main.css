@@ -1,7 +1,7 @@
 form {
   background-color: rgba(238, 238, 238, 0.32);
   width: 50%;
-  height: 70%;
+  /*height: 70%;*/
 }
 form > div {
   padding: 10px;
@@ -27,6 +27,7 @@ textarea{
   border-color: grey;
   line-height: 1.7;
   width: 100%;
+  resize: vertical;
 }
 
 button:hover {
